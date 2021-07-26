@@ -1,7 +1,7 @@
 print("What day is it?")
-day = input() # user_input
+day = input() # user_input for day
 print("Did you work out yesterday?")
-ans = input()
+ans = input() #user input on whether or not they worked out the day before
 if ans=="yes" or ans == "YES":
     if day=="Monday" or day=="Thursday":
         print("Time for chest and Tricepts!")
@@ -11,7 +11,7 @@ if ans=="yes" or ans == "YES":
         print("LEG DAY!!")
     elif day== "Sunday":
         print("Lets go for a run!")
-    else:
+    else: #for if the user said no
         print("What day was yesterday?")
 day = input()
 if day == "Monday" or day == "Thursday":
